@@ -1,0 +1,82 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+body {
+/* position: relative; */
+}
+header.nav-menu-top {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background-color: grey;
+}
+aside.self-portrait {
+    z-index: -1;
+    background-color: black;
+    position: absolute;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 1200px;
+    width: 40%;
+}
+nav.social-media-links {
+    position: relative;
+    height: 300px;
+    width: 50px;
+    float: left;
+    top: 150px;
+    left: 0px;
+    background-color: grey;
+    border-radius: 0 15px 15px 0;
+}
+h1.name {
+background-color: grey;
+margin: 0 auto;
+width: 30vw;
+height: 200px;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 48vw;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+padding: 40px 80px 40px 80px;
+font-size: 80px;
+border-radius:150px 0 0 150px;
+}
+span#name {
+    margin: 0;
+    top: 50%;
+    /* centre text vertically */
+}
+article {
+    width: 50%;
+    left: 41%;
+    position: absolute;
+    height: 500px;
+    top: 68vh;
+    padding: 1%;
+}
+h4#title {
+    margin-bottom: 20px;
+}
+button.next-page {
+    margin-top: 40px;
+    padding: 2rem;
+    border-radius: 50px;
+    border: none;
+}

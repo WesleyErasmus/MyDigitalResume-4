@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow:hidden;
+}
+header.nav-menu-top {
+    position: relative;
+    /* Positions explained in below link: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+    text-align: center;
+    margin: 0 auto;
+    /* Margin: 0 auto can be used to center an object horizontally  */
+    width: 95%;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul.top-nav-menu-buttons{
+    display: flex;
+    justify-content: center;
+    /* Positions explained in below link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    padding: 30px;
+}
+.top-nav-menu-buttons li {
+    margin: 0 20px 0 20px;
+    list-style-type: none;
+    text-align: center;
+}
+button#download-cv {
+    position: relative;
+    float: right;
+    top: -74px;
+    right: 4px;
+    padding: 28px;
+    border-radius: 50px;
+    border: NONE;
+}
+aside.self-portrait {
+    z-index: -1;
+    /* z-index explained in below link:
+     https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    background-image: url(/backgroundImage/coding-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 250%;
+}
+nav.social-media-links {
+    position: relative;
+    height: 390px;
+    width: 50px;
+    float: left;
+    top: 150px;
+    left: 17px;
+    border-radius: 0 15px 15px 0;
+}
+ul.social-media-links{
+    padding: 50px 5px 5px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.social-media-links li{
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+article {
+    width: 50%;
+    left: 41%;
+    position: absolute;
+    height: 500px;
+    top: 20vh;
+    padding: 1%;
+}
+h1#title {
+    margin-bottom: 20px;
+}
+.education h3 {
+    margin: 20px 0 20px 0;
+}
+button.next-page {
+    margin-top: 40px;
+    width: 150px ;
+    height: 80px ;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: gray;
+}
